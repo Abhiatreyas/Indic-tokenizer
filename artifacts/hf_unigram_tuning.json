@@ -1,0 +1,51 @@
+[
+  {
+    "max_piece_length": 16,
+    "num_sub_iterations": 2,
+    "pieces": 31999,
+    "tokens_per_word": 1.921,
+    "sec": 59.9
+  },
+  {
+    "max_piece_length": 32,
+    "num_sub_iterations": 2,
+    "pieces": 31999,
+    "tokens_per_word": 1.5177,
+    "sec": 87.6
+  },
+  {
+    "max_piece_length": 48,
+    "num_sub_iterations": 2,
+    "pieces": 31999,
+    "tokens_per_word": 1.4965,
+    "sec": 90.1
+  },
+  {
+    "max_piece_length": 64,
+    "num_sub_iterations": 2,
+    "pieces": 31999,
+    "tokens_per_word": 1.4979,
+    "sec": 92.2
+  },
+  {
+    "max_piece_length": 128,
+    "num_sub_iterations": 2,
+    "pieces": 31999,
+    "tokens_per_word": 1.4989,
+    "sec": 91.6
+  },
+  {
+    "max_piece_length": 64,
+    "num_sub_iterations": 4,
+    "pieces": 31999,
+    "tokens_per_word": 1.4979,
+    "sec": 90.9
+  },
+  {
+    "max_piece_length": 64,
+    "num_sub_iterations": 8,
+    "pieces": 31999,
+    "tokens_per_word": 1.4979,
+    "sec": 91.8
+  }
+]

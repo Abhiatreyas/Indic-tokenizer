@@ -1,0 +1,42 @@
+[
+  {
+    "label": "DEVANAGARI hi+mr+ne (current)",
+    "script": "DEVANAGARI",
+    "vocab": 32000,
+    "languages": 3,
+    "train_runs": 37330,
+    "train_chars": 1303583,
+    "tokens_per_word": 1.3385,
+    "sec": 35.8
+  },
+  {
+    "label": "DEVANAGARI hi+mr (after dropping ne)",
+    "script": "DEVANAGARI",
+    "vocab": 32000,
+    "languages": 2,
+    "train_runs": 40713,
+    "train_chars": 1320105,
+    "tokens_per_word": 1.2927,
+    "sec": 36.7
+  },
+  {
+    "label": "DEVANAGARI hi+mr+ne (current)",
+    "script": "DEVANAGARI",
+    "vocab": 64000,
+    "languages": 3,
+    "train_runs": 37330,
+    "train_chars": 1303583,
+    "tokens_per_word": 1.2236,
+    "sec": 17.6
+  },
+  {
+    "label": "DEVANAGARI hi+mr (after dropping ne)",
+    "script": "DEVANAGARI",
+    "vocab": 64000,
+    "languages": 2,
+    "train_runs": 40713,
+    "train_chars": 1320105,
+    "tokens_per_word": 1.1819,
+    "sec": 17.8
+  }
+]

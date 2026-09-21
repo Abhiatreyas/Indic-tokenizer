@@ -1,0 +1,14 @@
+{
+  "G:/jnana_raw/indiccorp_v2.jsonl": {
+    "kannada": {
+      "first_line": 1,
+      "count": 4000000
+    }
+  },
+  "G:/jnana_raw/sangraha_verified.jsonl": {
+    "kannada": {
+      "first_line": 1,
+      "count": 3632341
+    }
+  }
+}

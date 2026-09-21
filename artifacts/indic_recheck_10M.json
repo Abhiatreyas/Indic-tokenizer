@@ -1,0 +1,118 @@
+[
+  {
+    "lang": "hi",
+    "script": "DEVANAGARI",
+    "ownership": "neutral",
+    "vocab": 8000,
+    "held_chars": 677975,
+    "held_words": 158715,
+    "train_runs": 1765262,
+    "distinct_runs": 91011,
+    "distinct_words": 91011,
+    "bpe": {
+      "actual_vocab": 7999,
+      "tokens": 202622,
+      "tokens_per_char": 0.2989,
+      "tokens_per_word": 1.277,
+      "fallback_chars": 0,
+      "train_sec": 3.0
+    },
+    "unigram": {
+      "actual_vocab": 7999,
+      "tokens": 235915,
+      "tokens_per_char": 0.348,
+      "tokens_per_word": 1.486,
+      "fallback_chars": 0,
+      "train_sec": 11.8
+    },
+    "winner": "bpe",
+    "unigram_gain_pct": -16.43
+  },
+  {
+    "lang": "hi",
+    "script": "DEVANAGARI",
+    "ownership": "leading",
+    "vocab": 8000,
+    "held_chars": 839137,
+    "held_words": 158715,
+    "train_runs": 253702,
+    "distinct_runs": 208224,
+    "distinct_words": 91011,
+    "bpe": {
+      "actual_vocab": 7999,
+      "tokens": 226865,
+      "tokens_per_char": 0.2704,
+      "tokens_per_word": 1.429,
+      "fallback_chars": 0,
+      "train_sec": 16.4
+    },
+    "unigram": {
+      "actual_vocab": 7999,
+      "tokens": 232266,
+      "tokens_per_char": 0.2768,
+      "tokens_per_word": 1.463,
+      "fallback_chars": 0,
+      "train_sec": 158.9
+    },
+    "winner": "bpe",
+    "unigram_gain_pct": -2.37
+  },
+  {
+    "lang": "kn",
+    "script": "KANNADA",
+    "ownership": "neutral",
+    "vocab": 8000,
+    "held_chars": 1684436,
+    "held_words": 240049,
+    "train_runs": 1068419,
+    "distinct_runs": 184814,
+    "distinct_words": 184814,
+    "bpe": {
+      "actual_vocab": 7999,
+      "tokens": 418934,
+      "tokens_per_char": 0.2487,
+      "tokens_per_word": 1.745,
+      "fallback_chars": 0,
+      "train_sec": 5.9
+    },
+    "unigram": {
+      "actual_vocab": 7999,
+      "tokens": 511046,
+      "tokens_per_char": 0.3034,
+      "tokens_per_word": 2.129,
+      "fallback_chars": 0,
+      "train_sec": 31.7
+    },
+    "winner": "bpe",
+    "unigram_gain_pct": -21.99
+  },
+  {
+    "lang": "kn",
+    "script": "KANNADA",
+    "ownership": "leading",
+    "vocab": 8000,
+    "held_chars": 1916388,
+    "held_words": 240049,
+    "train_runs": 211332,
+    "distinct_runs": 180510,
+    "distinct_words": 184814,
+    "bpe": {
+      "actual_vocab": 7999,
+      "tokens": 497002,
+      "tokens_per_char": 0.2593,
+      "tokens_per_word": 2.07,
+      "fallback_chars": 0,
+      "train_sec": 18.3
+    },
+    "unigram": {
+      "actual_vocab": 7999,
+      "tokens": 523309,
+      "tokens_per_char": 0.2731,
+      "tokens_per_word": 2.18,
+      "fallback_chars": 0,
+      "train_sec": 160.2
+    },
+    "winner": "bpe",
+    "unigram_gain_pct": -5.32
+  }
+]

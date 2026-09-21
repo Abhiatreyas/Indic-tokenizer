@@ -1,0 +1,60 @@
+[
+  {
+    "lang": "kn",
+    "script": "KANNADA",
+    "ownership": "neutral",
+    "vocab": 8000,
+    "held_chars": 3378729,
+    "held_words": 480283,
+    "train_runs": 3219326,
+    "distinct_runs": 395663,
+    "distinct_words": 395663,
+    "bpe": {
+      "actual_vocab": 7999,
+      "tokens": 826267,
+      "tokens_per_char": 0.2445,
+      "tokens_per_word": 1.72,
+      "fallback_chars": 0,
+      "train_sec": 13.8
+    },
+    "unigram": {
+      "actual_vocab": 7999,
+      "tokens": 1014310,
+      "tokens_per_char": 0.3002,
+      "tokens_per_word": 2.112,
+      "fallback_chars": 0,
+      "train_sec": 79.8
+    },
+    "winner": "bpe",
+    "unigram_gain_pct": -22.78
+  },
+  {
+    "lang": "kn",
+    "script": "KANNADA",
+    "ownership": "leading",
+    "vocab": 8000,
+    "held_chars": 3841921,
+    "held_words": 480283,
+    "train_runs": 637953,
+    "distinct_runs": 528074,
+    "distinct_words": 395663,
+    "bpe": {
+      "actual_vocab": 7999,
+      "tokens": 982820,
+      "tokens_per_char": 0.2558,
+      "tokens_per_word": 2.046,
+      "fallback_chars": 0,
+      "train_sec": 67.2
+    },
+    "unigram": {
+      "actual_vocab": 7999,
+      "tokens": 1028197,
+      "tokens_per_char": 0.2676,
+      "tokens_per_word": 2.141,
+      "fallback_chars": 0,
+      "train_sec": 528.0
+    },
+    "winner": "bpe",
+    "unigram_gain_pct": -4.61
+  }
+]

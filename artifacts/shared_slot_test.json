@@ -1,0 +1,212 @@
+[
+  {
+    "config": "A_per_script",
+    "script": "LATIN",
+    "tokens_per_word": 1.487,
+    "pieces": 20686,
+    "fired": 5122
+  },
+  {
+    "config": "A_per_script",
+    "script": "DEVANAGARI",
+    "tokens_per_word": 1.6163,
+    "pieces": 15514,
+    "fired": 4666
+  },
+  {
+    "config": "A_per_script",
+    "script": "KANNADA",
+    "tokens_per_word": 2.2165,
+    "pieces": 15514,
+    "fired": 5676
+  },
+  {
+    "config": "A_per_script",
+    "script": "MALAYALAM",
+    "tokens_per_word": 1.7355,
+    "pieces": 15514,
+    "fired": 9214
+  },
+  {
+    "config": "A_per_script",
+    "script": "TELUGU",
+    "tokens_per_word": 1.514,
+    "pieces": 15514,
+    "fired": 8007
+  },
+  {
+    "config": "A_per_script",
+    "script": "TAMIL",
+    "tokens_per_word": 1.5414,
+    "pieces": 12928,
+    "fired": 6950
+  },
+  {
+    "config": "A_per_script",
+    "script": "BENGALI",
+    "tokens_per_word": 1.2158,
+    "pieces": 10342,
+    "fired": 6302
+  },
+  {
+    "config": "A_per_script",
+    "script": "GUJARATI",
+    "tokens_per_word": 1.4399,
+    "pieces": 7757,
+    "fired": 5052
+  },
+  {
+    "config": "A_per_script",
+    "script": "ORIYA",
+    "tokens_per_word": 1.2512,
+    "pieces": 7757,
+    "fired": 3394
+  },
+  {
+    "config": "A_per_script",
+    "script": "GURMUKHI",
+    "tokens_per_word": 1.1996,
+    "pieces": 6464,
+    "fired": 4397
+  },
+  {
+    "config": "B_one_shared",
+    "script": "LATIN",
+    "tokens_per_word": 1.8363,
+    "pieces": 127999,
+    "fired": 2591
+  },
+  {
+    "config": "B_one_shared",
+    "script": "DEVANAGARI",
+    "tokens_per_word": 1.5494,
+    "pieces": 127999,
+    "fired": 5770
+  },
+  {
+    "config": "B_one_shared",
+    "script": "KANNADA",
+    "tokens_per_word": 2.1342,
+    "pieces": 127999,
+    "fired": 6930
+  },
+  {
+    "config": "B_one_shared",
+    "script": "MALAYALAM",
+    "tokens_per_word": 2.015,
+    "pieces": 127999,
+    "fired": 10189
+  },
+  {
+    "config": "B_one_shared",
+    "script": "TELUGU",
+    "tokens_per_word": 1.8188,
+    "pieces": 127999,
+    "fired": 8348
+  },
+  {
+    "config": "B_one_shared",
+    "script": "TAMIL",
+    "tokens_per_word": 1.6981,
+    "pieces": 127999,
+    "fired": 7765
+  },
+  {
+    "config": "B_one_shared",
+    "script": "BENGALI",
+    "tokens_per_word": 1.3427,
+    "pieces": 127999,
+    "fired": 7559
+  },
+  {
+    "config": "B_one_shared",
+    "script": "GUJARATI",
+    "tokens_per_word": 1.4213,
+    "pieces": 127999,
+    "fired": 8159
+  },
+  {
+    "config": "B_one_shared",
+    "script": "ORIYA",
+    "tokens_per_word": 1.6668,
+    "pieces": 127999,
+    "fired": 4278
+  },
+  {
+    "config": "B_one_shared",
+    "script": "GURMUKHI",
+    "tokens_per_word": 1.1093,
+    "pieces": 127999,
+    "fired": 8077
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "LATIN",
+    "tokens_per_word": 1.487,
+    "pieces": 20686,
+    "fired": 5122
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "DEVANAGARI",
+    "tokens_per_word": 1.5691,
+    "pieces": 107312,
+    "fired": 5421
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "KANNADA",
+    "tokens_per_word": 2.1653,
+    "pieces": 107312,
+    "fired": 6484
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "MALAYALAM",
+    "tokens_per_word": 2.0488,
+    "pieces": 107312,
+    "fired": 9559
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "TELUGU",
+    "tokens_per_word": 1.8441,
+    "pieces": 107312,
+    "fired": 7822
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "TAMIL",
+    "tokens_per_word": 1.7306,
+    "pieces": 107312,
+    "fired": 7203
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "BENGALI",
+    "tokens_per_word": 1.3624,
+    "pieces": 107312,
+    "fired": 7014
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "GUJARATI",
+    "tokens_per_word": 1.4416,
+    "pieces": 107312,
+    "fired": 7610
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "ORIYA",
+    "tokens_per_word": 1.675,
+    "pieces": 107312,
+    "fired": 4115
+  },
+  {
+    "config": "C_indic_shared",
+    "script": "GURMUKHI",
+    "tokens_per_word": 1.1259,
+    "pieces": 107312,
+    "fired": 7521
+  }
+]

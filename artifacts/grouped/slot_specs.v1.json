@@ -1,0 +1,51 @@
+{
+  "slots": [
+    {
+      "name": "NEUTRAL",
+      "algorithm": "bpe",
+      "scripts": [
+        "COMMON"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false
+    },
+    {
+      "name": "LATIN",
+      "algorithm": "bpe",
+      "scripts": [
+        "LATIN"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false
+    },
+    {
+      "name": "INDIC_SHARED",
+      "algorithm": "bpe",
+      "scripts": [
+        "DEVANAGARI",
+        "KANNADA"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false
+    },
+    {
+      "name": "CODE_MATH",
+      "algorithm": "bpe",
+      "scripts": [],
+      "structural": true,
+      "trained": true,
+      "exempt_from_budget": false
+    },
+    {
+      "name": "CATCHALL",
+      "algorithm": "bytes",
+      "scripts": [],
+      "structural": false,
+      "trained": false,
+      "exempt_from_budget": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "embed_multiple": 128,
+  "files": {
+    "slot_specs.v1.json": "013e27b359c7e984f0e677a0051980cf73458faa51288aa303b6526fc9e984f2",
+    "slots.v1.json": "05c4bce8891b9061c6080a94ba8976de70a8f013f249363924db477b84f51931",
+    "vocab.v1.json": "8ab18fe1358b12a4217eb51713e53e6f9c91bcf960d64e355fd522af44949b70"
+  },
+  "first_invalid_id": 18249,
+  "padded_vocab_size": 18304,
+  "slot_algorithms": {
+    "BENGALI": "unigram",
+    "CATCHALL": "bytes",
+    "CODE_MATH": "bpe",
+    "DEVANAGARI": "unigram",
+    "GUJARATI": "unigram",
+    "GURMUKHI": "unigram",
+    "KANNADA": "unigram",
+    "LATIN": "unigram",
+    "MALAYALAM": "unigram",
+    "NEUTRAL": "bpe",
+    "ORIYA": "unigram",
+    "TAMIL": "unigram",
+    "TELUGU": "unigram"
+  },
+  "slot_artifacts": {
+    "BENGALI": "slot_models/BENGALI.json",
+    "CODE_MATH": "slot_models/CODE_MATH.json",
+    "DEVANAGARI": "slot_models/DEVANAGARI.json",
+    "GUJARATI": "slot_models/GUJARATI.json",
+    "GURMUKHI": "slot_models/GURMUKHI.json",
+    "KANNADA": "slot_models/KANNADA.json",
+    "LATIN": "slot_models/LATIN.json",
+    "MALAYALAM": "slot_models/MALAYALAM.json",
+    "NEUTRAL": "slot_models/NEUTRAL.json",
+    "ORIYA": "slot_models/ORIYA.json",
+    "TAMIL": "slot_models/TAMIL.json",
+    "TELUGU": "slot_models/TELUGU.json"
+  },
+  "slot_scripts": {
+    "BENGALI": [
+      "BENGALI"
+    ],
+    "CATCHALL": [],
+    "CODE_MATH": [],
+    "DEVANAGARI": [
+      "DEVANAGARI"
+    ],
+    "GUJARATI": [
+      "GUJARATI"
+    ],
+    "GURMUKHI": [
+      "GURMUKHI"
+    ],
+    "KANNADA": [
+      "KANNADA"
+    ],
+    "LATIN": [
+      "LATIN"
+    ],
+    "MALAYALAM": [
+      "MALAYALAM"
+    ],
+    "NEUTRAL": [
+      "COMMON"
+    ],
+    "ORIYA": [
+      "ORIYA"
+    ],
+    "TAMIL": [
+      "TAMIL"
+    ],
+    "TELUGU": [
+      "TELUGU"
+    ]
+  },
+  "slot_sizes": {
+    "BENGALI": 1499,
+    "CATCHALL": 256,
+    "CODE_MATH": 1499,
+    "DEVANAGARI": 1499,
+    "GUJARATI": 1499,
+    "GURMUKHI": 1499,
+    "KANNADA": 1499,
+    "LATIN": 1499,
+    "MALAYALAM": 1499,
+    "NEUTRAL": 1499,
+    "ORIYA": 1499,
+    "TAMIL": 1499,
+    "TELUGU": 1499
+  },
+  "special_tokens": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<unk>",
+    "<mask>"
+  ],
+  "tokenizer_version": "v1",
+  "vocab_size": 18249
+}

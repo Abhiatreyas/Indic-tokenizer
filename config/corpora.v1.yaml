@@ -1,0 +1,60 @@
+# Corpus registry -- SPEC.md section 9.
+#
+# STATUS: the real corpus paths (open item O1) are still placeholders. Fill in
+# `paths` below and build with:
+#
+#     python -m tokenizer.build --out artifacts/v1 --registry config/corpora.v1.yaml
+#
+# Until then the builder falls back to the synthetic smoke-test corpus, which is
+# far too small and too repetitive to train a usable vocabulary or to evaluate
+# gates G4/G5.
+
+seed: 1337
+
+corpora:
+  # ---- Devanagari: Hindi / Marathi / Nepali all share this slot -------------
+  - name: indic-devanagari
+    slot: DEVANAGARI
+    paths: ["<REPLACE: /path/to/devanagari-corpus>"]
+    glob: "**/*.txt"
+    encoding: utf-8
+    weight: 1.0
+
+  # ---- Kannada -------------------------------------------------------------
+  - name: indic-kannada
+    slot: KANNADA
+    paths: ["<REPLACE: /path/to/kannada-corpus>"]
+    glob: "**/*.txt"
+    encoding: utf-8
+    weight: 1.0
+
+  # ---- Latin: English + Hinglish + Kanglish, deliberately one slot ---------
+  - name: web-latin
+    slot: LATIN
+    paths: ["<REPLACE: /path/to/latin-corpus>"]
+    glob: "**/*.txt"
+    encoding: utf-8
+    weight: 1.0
+
+  # ---- Code and math: whole files route to CODE_MATH ----------------------
+  - name: code
+    slot: CODE_MATH
+    paths: ["<REPLACE: /path/to/code-corpus>"]
+    glob: "**/*.py"
+    encoding: utf-8
+    weight: 1.0
+    kind_hint: code
+
+  - name: math
+    slot: CODE_MATH
+    paths: ["<REPLACE: /path/to/math-corpus>"]
+    glob: "**/*.tex"
+    encoding: utf-8
+    weight: 1.0
+
+  # ---- Smoke-test corpus: present, but weight 0 so it is never trained on --
+  - name: synthetic-demo
+    slot: LATIN
+    generator: synthetic_v1
+    size: 10000
+    weight: 0.0

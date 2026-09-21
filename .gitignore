@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Pytest & testing cache
+.pytest_cache/
+.pytest_cache
+.coverage
+htmlcov/
+
+# Raw dataset files (Must NOT be committed - >290 MB data exceeds GitHub limit)
+data/
+data_real/
+data_kn_demo/
+data_bpb/
+scratch_shards/
+*.bin
+*.jsonl
+
+# Scrap / temporary experiment artifacts (Retain slot_demo for out-of-the-box tests)
+artifacts/bench_sp/
+artifacts/sp_vs_hf/
+artifacts/kn_real/
+artifacts/bpb_*/
+artifacts/final_*/
+artifacts/ws_*/
+artifacts/marked/
+artifacts/matched/
+artifacts/v1/
+
+# Logs and system files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

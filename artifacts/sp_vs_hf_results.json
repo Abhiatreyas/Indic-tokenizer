@@ -1,0 +1,58 @@
+[
+  {
+    "tokenizer": "sp_unigram_mine",
+    "kind": "sentencepiece",
+    "pieces": 32000,
+    "tokens": 397936,
+    "tokens_per_char": 0.2076,
+    "tokens_per_word": 1.6577
+  },
+  {
+    "tokenizer": "sp_bpe_mine",
+    "kind": "sentencepiece",
+    "pieces": 32000,
+    "tokens": 388427,
+    "tokens_per_char": 0.2027,
+    "tokens_per_word": 1.6181
+  },
+  {
+    "tokenizer": "hf_bpe_mine",
+    "kind": "hf_tokenizers",
+    "pieces": 31999,
+    "tokens": 395355,
+    "tokens_per_char": 0.2063,
+    "tokens_per_word": 1.647
+  },
+  {
+    "tokenizer": "hf_unigram_mine",
+    "kind": "hf_tokenizers",
+    "pieces": 31999,
+    "tokens": 461131,
+    "tokens_per_char": 0.2406,
+    "tokens_per_word": 1.921
+  },
+  {
+    "tokenizer": "vachana_sp_unigram",
+    "kind": "sentencepiece",
+    "pieces": 32000,
+    "tokens": 390259,
+    "tokens_per_char": 0.2036,
+    "tokens_per_word": 1.6257
+  },
+  {
+    "tokenizer": "vachana_sp_bpe",
+    "kind": "sentencepiece",
+    "pieces": 32000,
+    "tokens": 396693,
+    "tokens_per_char": 0.207,
+    "tokens_per_word": 1.6526
+  },
+  {
+    "tokenizer": "sarvam1_shared_10lang",
+    "kind": "sentencepiece",
+    "pieces": 68096,
+    "tokens": 602099,
+    "tokens_per_char": 0.3142,
+    "tokens_per_word": 2.5082
+  }
+]

@@ -1,0 +1,64 @@
+# Slot declaration -- SPEC.md sections 3 and 6.
+#
+# A slot is (name, algorithm, scripts[]). This one shape covers every grouping
+# the design needs:
+#
+#   * languages sharing a script share a slot (LATIN covers English, Hinglish,
+#     Kanglish, French, ...; DEVANAGARI covers Hindi, Marathi, Nepali, Sanskrit);
+#   * different slots may run different algorithms;
+#   * several scripts may be grouped into ONE slot -- the right call for
+#     low-resource scripts that cannot each afford a dedicated vocabulary.
+#
+# WARNING on grouping: grouping by algorithm ALONE (all BPE scripts into a
+# single slot) is the shared-vocabulary baseline, which measured 13% worse on
+# Devanagari and 36% worse on Kannada. Group scripts because they are
+# individually too small, not because they happen to share an algorithm. The
+# baseline comparison exists to keep that honest.
+#
+# Build with:
+#   python -m tokenizer.build --out artifacts/v1 --slots-config config/slots.v1.yaml --with-baseline
+
+slots:
+  # Whitespace, digits, punctuation, emoji, math symbols. Owned by no language.
+  - name: NEUTRAL
+    algorithm: bpe
+    scripts: [COMMON]
+
+  # One slot for every Latin-script language.
+  - name: LATIN
+    algorithm: bpe
+    scripts: [LATIN]
+
+  # Hindi + Marathi + Nepali + Sanskrit + Konkani. One slot, because they share
+  # a script and the encoder cannot separate them without language ID.
+  - name: DEVANAGARI
+    algorithm: bpe
+    scripts: [DEVANAGARI]
+
+  - name: KANNADA
+    algorithm: bpe
+    scripts: [KANNADA]
+
+  # ---- Demonstrate multi-script grouping -------------------------------
+  # Uncomment to fold the remaining Indic scripts into one shared slot instead
+  # of letting them fall through to CATCHALL byte fallback. This is the case
+  # where grouping several languages under one algorithm is genuinely correct:
+  # each script is too small to justify its own vocabulary, but together they
+  # easily justify one BPE model. Then set `scripts: []` on nothing else.
+  #
+  # - name: INDIC_SHARED
+  #   algorithm: bpe
+  #   scripts: [TAMIL, TELUGU, MALAYALAM, BENGALI, GUJARATI, GURMUKHI, ORIYA, SINHALA]
+
+  # Code and math: routed by document structure, not by script, so it has no
+  # scripts[] of its own.
+  - name: CODE_MATH
+    algorithm: bpe
+    structural: true
+
+  # Fixed 256-entry byte table. Not trained. Absorbs every script not claimed
+  # above, losslessly, so nothing ever becomes <unk>.
+  - name: CATCHALL
+    algorithm: bytes
+    trained: false
+    exempt_from_budget: true

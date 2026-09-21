@@ -1,0 +1,33 @@
+# Grouped-slot example -- the refinement requested: a slot is an algorithm
+# applied to a SET of scripts, so several scripts can share one vocabulary.
+#
+# Here Devanagari and Kannada are folded into one slot. On real data you would
+# only do this when the individual scripts are too small to justify their own
+# vocabulary, or when measurement shows the shared vocab wins. This file exists
+# to prove the grouping path works end to end.
+#
+# Build with:
+#   python -m tokenizer.build --out artifacts/grouped --slots-config config/slots.grouped.example.yaml --with-baseline
+
+slots:
+  - name: NEUTRAL
+    algorithm: bpe
+    scripts: [COMMON]
+
+  - name: LATIN
+    algorithm: bpe
+    scripts: [LATIN]
+
+  # One slot, one BPE model, two scripts: Hindi/Marathi/Nepali AND Kannada.
+  - name: INDIC_SHARED
+    algorithm: bpe
+    scripts: [DEVANAGARI, KANNADA]
+
+  - name: CODE_MATH
+    algorithm: bpe
+    structural: true
+
+  - name: CATCHALL
+    algorithm: bytes
+    trained: false
+    exempt_from_budget: true

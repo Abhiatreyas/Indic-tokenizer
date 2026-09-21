@@ -1,0 +1,56 @@
+[
+  {
+    "source": "english",
+    "algo": "bpe",
+    "pieces": 15999,
+    "tokens": 141645,
+    "words": 99097,
+    "tokens_per_word": 1.4294,
+    "sec": 4.6
+  },
+  {
+    "source": "hinglish",
+    "algo": "bpe",
+    "pieces": 15999,
+    "tokens": 51714,
+    "words": 50101,
+    "tokens_per_word": 1.0322,
+    "sec": 4.6
+  },
+  {
+    "source": "tanglish",
+    "algo": "bpe",
+    "pieces": 15999,
+    "tokens": 64417,
+    "words": 37013,
+    "tokens_per_word": 1.7404,
+    "sec": 4.6
+  },
+  {
+    "source": "english",
+    "algo": "unigram",
+    "pieces": 15999,
+    "tokens": 130364,
+    "words": 99097,
+    "tokens_per_word": 1.3155,
+    "sec": 41.9
+  },
+  {
+    "source": "hinglish",
+    "algo": "unigram",
+    "pieces": 15999,
+    "tokens": 46694,
+    "words": 50101,
+    "tokens_per_word": 0.932,
+    "sec": 41.9
+  },
+  {
+    "source": "tanglish",
+    "algo": "unigram",
+    "pieces": 15999,
+    "tokens": 60984,
+    "words": 37013,
+    "tokens_per_word": 1.6476,
+    "sec": 41.9
+  }
+]

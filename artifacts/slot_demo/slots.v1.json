@@ -1,0 +1,106 @@
+{
+  "special_tokens": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<unk>",
+    "<mask>"
+  ],
+  "vocab_size": 18249,
+  "first_invalid_id": 18249,
+  "embed_multiple": 128,
+  "padded_vocab_size": 18304,
+  "slots": [
+    {
+      "name": "NEUTRAL",
+      "start": 5,
+      "end": 1504,
+      "algorithm": "bpe",
+      "size": 1499
+    },
+    {
+      "name": "LATIN",
+      "start": 1504,
+      "end": 3003,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "DEVANAGARI",
+      "start": 3003,
+      "end": 4502,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "KANNADA",
+      "start": 4502,
+      "end": 6001,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "MALAYALAM",
+      "start": 6001,
+      "end": 7500,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "TELUGU",
+      "start": 7500,
+      "end": 8999,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "TAMIL",
+      "start": 8999,
+      "end": 10498,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "BENGALI",
+      "start": 10498,
+      "end": 11997,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "GUJARATI",
+      "start": 11997,
+      "end": 13496,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "ORIYA",
+      "start": 13496,
+      "end": 14995,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "GURMUKHI",
+      "start": 14995,
+      "end": 16494,
+      "algorithm": "unigram",
+      "size": 1499
+    },
+    {
+      "name": "CODE_MATH",
+      "start": 16494,
+      "end": 17993,
+      "algorithm": "bpe",
+      "size": 1499
+    },
+    {
+      "name": "CATCHALL",
+      "start": 17993,
+      "end": 18249,
+      "algorithm": "bytes",
+      "size": 256
+    }
+  ]
+}

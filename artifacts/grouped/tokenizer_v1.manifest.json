@@ -1,0 +1,58 @@
+{
+  "alpha": 0.7,
+  "corpus_documents": 550,
+  "corpus_source": "data\\corpus\\documents.jsonl",
+  "embed_multiple": 128,
+  "emit_slot_markers": false,
+  "files": {
+    "slot_specs.v1.json": "5b913795771b96df030bfc946369a9676230b1e7b9c1aea9c79bb015155e6459",
+    "slots.v1.json": "6e384fd05a3b9a7c8cc5f9bd03c8f84401ac7f529f79f7f691e77276d2c62fa8",
+    "vocab.v1.json": "ffb322269d901bad6339b42eeea2b44326da66097004a000bdcf3c711aa4ea3e"
+  },
+  "first_invalid_id": 2882,
+  "padded_vocab_size": 2944,
+  "slot_algorithms": {
+    "CATCHALL": "bytes",
+    "CODE_MATH": "bpe",
+    "INDIC_SHARED": "bpe",
+    "LATIN": "bpe",
+    "NEUTRAL": "bpe"
+  },
+  "slot_artifacts": {
+    "CODE_MATH": "slot_models/CODE_MATH.json",
+    "INDIC_SHARED": "slot_models/INDIC_SHARED.json",
+    "LATIN": "slot_models/LATIN.json",
+    "NEUTRAL": "slot_models/NEUTRAL.json"
+  },
+  "slot_scripts": {
+    "CATCHALL": [],
+    "CODE_MATH": [],
+    "INDIC_SHARED": [
+      "DEVANAGARI",
+      "KANNADA"
+    ],
+    "LATIN": [
+      "LATIN"
+    ],
+    "NEUTRAL": [
+      "COMMON"
+    ]
+  },
+  "slot_sizes": {
+    "CATCHALL": 256,
+    "CODE_MATH": 677,
+    "INDIC_SHARED": 817,
+    "LATIN": 765,
+    "NEUTRAL": 362
+  },
+  "special_tokens": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<unk>",
+    "<mask>"
+  ],
+  "tokenizer_version": "v1",
+  "total_vocab_target": 8000,
+  "vocab_size": 2882
+}

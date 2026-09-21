@@ -1,0 +1,6 @@
+# Verified against Python 3.11.4
+tokenizers==0.23.1
+sentencepiece==0.2.2
+numpy==2.4.6
+pyyaml==6.0.3
+pytest==9.0.3

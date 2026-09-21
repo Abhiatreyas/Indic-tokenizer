@@ -1,0 +1,178 @@
+[
+  {
+    "label": "Kannada OLD 48k",
+    "script": "KANNADA",
+    "vocab": 48000,
+    "changed": true,
+    "pieces": 47999,
+    "fired": 15161,
+    "utilization": 0.316,
+    "tokens_per_word": 1.6552,
+    "sec": 23.6
+  },
+  {
+    "label": "Kannada NEW 32k",
+    "script": "KANNADA",
+    "vocab": 32000,
+    "changed": true,
+    "pieces": 31999,
+    "fired": 12501,
+    "utilization": 0.391,
+    "tokens_per_word": 1.7511,
+    "sec": 27.7
+  },
+  {
+    "label": "Malayalam OLD 48k",
+    "script": "MALAYALAM",
+    "vocab": 48000,
+    "changed": true,
+    "pieces": 47999,
+    "fired": 21423,
+    "utilization": 0.446,
+    "tokens_per_word": 1.4988,
+    "sec": 27.9
+  },
+  {
+    "label": "Malayalam NEW 32k",
+    "script": "MALAYALAM",
+    "vocab": 32000,
+    "changed": true,
+    "pieces": 31999,
+    "fired": 17547,
+    "utilization": 0.548,
+    "tokens_per_word": 1.6348,
+    "sec": 32.4
+  },
+  {
+    "label": "Telugu OLD 48k",
+    "script": "TELUGU",
+    "vocab": 48000,
+    "changed": true,
+    "pieces": 47999,
+    "fired": 22252,
+    "utilization": 0.464,
+    "tokens_per_word": 1.3796,
+    "sec": 24.2
+  },
+  {
+    "label": "Telugu NEW 32k",
+    "script": "TELUGU",
+    "vocab": 32000,
+    "changed": true,
+    "pieces": 31999,
+    "fired": 17502,
+    "utilization": 0.547,
+    "tokens_per_word": 1.5119,
+    "sec": 33.2
+  },
+  {
+    "label": "Tamil OLD 40k",
+    "script": "TAMIL",
+    "vocab": 40000,
+    "changed": true,
+    "pieces": 39999,
+    "fired": 17606,
+    "utilization": 0.44,
+    "tokens_per_word": 1.2905,
+    "sec": 26.8
+  },
+  {
+    "label": "Tamil NEW 32k",
+    "script": "TAMIL",
+    "vocab": 32000,
+    "changed": true,
+    "pieces": 31999,
+    "fired": 15799,
+    "utilization": 0.494,
+    "tokens_per_word": 1.3412,
+    "sec": 32.3
+  },
+  {
+    "label": "Odia OLD 24k",
+    "script": "ORIYA",
+    "vocab": 24000,
+    "changed": true,
+    "pieces": 23999,
+    "fired": 11717,
+    "utilization": 0.488,
+    "tokens_per_word": 1.054,
+    "sec": 28.9
+  },
+  {
+    "label": "Odia NEW 16k",
+    "script": "ORIYA",
+    "vocab": 16000,
+    "changed": true,
+    "pieces": 15999,
+    "fired": 9141,
+    "utilization": 0.571,
+    "tokens_per_word": 1.1438,
+    "sec": 31.2
+  },
+  {
+    "label": "Punjabi OLD 20k",
+    "script": "GURMUKHI",
+    "vocab": 20000,
+    "changed": true,
+    "pieces": 19999,
+    "fired": 12346,
+    "utilization": 0.617,
+    "tokens_per_word": 0.9623,
+    "sec": 34.0
+  },
+  {
+    "label": "Punjabi NEW 16k",
+    "script": "GURMUKHI",
+    "vocab": 16000,
+    "changed": true,
+    "pieces": 15999,
+    "fired": 10475,
+    "utilization": 0.655,
+    "tokens_per_word": 1.0154,
+    "sec": 35.6
+  },
+  {
+    "label": "English+Hinglish+Tanglish 64k",
+    "script": "LATIN",
+    "vocab": 64000,
+    "changed": false,
+    "pieces": 62026,
+    "fired": 13128,
+    "utilization": 0.212,
+    "tokens_per_word": 1.2875,
+    "sec": 2.2
+  },
+  {
+    "label": "Hindi+Marathi 48k",
+    "script": "DEVANAGARI",
+    "vocab": 48000,
+    "changed": false,
+    "pieces": 47999,
+    "fired": 11946,
+    "utilization": 0.249,
+    "tokens_per_word": 1.2291,
+    "sec": 24.8
+  },
+  {
+    "label": "Bengali+Assamese 32k",
+    "script": "BENGALI",
+    "vocab": 32000,
+    "changed": false,
+    "pieces": 31999,
+    "fired": 16283,
+    "utilization": 0.509,
+    "tokens_per_word": 1.0089,
+    "sec": 31.5
+  },
+  {
+    "label": "Gujarati 24k",
+    "script": "GUJARATI",
+    "vocab": 24000,
+    "changed": false,
+    "pieces": 23999,
+    "fired": 13567,
+    "utilization": 0.565,
+    "tokens_per_word": 1.1002,
+    "sec": 34.5
+  }
+]

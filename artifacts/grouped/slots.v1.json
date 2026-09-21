@@ -1,0 +1,50 @@
+{
+  "special_tokens": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<unk>",
+    "<mask>"
+  ],
+  "vocab_size": 2882,
+  "first_invalid_id": 2882,
+  "embed_multiple": 128,
+  "padded_vocab_size": 2944,
+  "slots": [
+    {
+      "name": "NEUTRAL",
+      "start": 5,
+      "end": 367,
+      "algorithm": "bpe",
+      "size": 362
+    },
+    {
+      "name": "LATIN",
+      "start": 367,
+      "end": 1132,
+      "algorithm": "bpe",
+      "size": 765
+    },
+    {
+      "name": "INDIC_SHARED",
+      "start": 1132,
+      "end": 1949,
+      "algorithm": "bpe",
+      "size": 817
+    },
+    {
+      "name": "CODE_MATH",
+      "start": 1949,
+      "end": 2626,
+      "algorithm": "bpe",
+      "size": 677
+    },
+    {
+      "name": "CATCHALL",
+      "start": 2626,
+      "end": 2882,
+      "algorithm": "bytes",
+      "size": 256
+    }
+  ]
+}

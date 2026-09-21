@@ -1,0 +1,143 @@
+{
+  "slots": [
+    {
+      "name": "NEUTRAL",
+      "algorithm": "bpe",
+      "scripts": [
+        "COMMON"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "LATIN",
+      "algorithm": "unigram",
+      "scripts": [
+        "LATIN"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "DEVANAGARI",
+      "algorithm": "unigram",
+      "scripts": [
+        "DEVANAGARI"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "KANNADA",
+      "algorithm": "unigram",
+      "scripts": [
+        "KANNADA"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "MALAYALAM",
+      "algorithm": "unigram",
+      "scripts": [
+        "MALAYALAM"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "TELUGU",
+      "algorithm": "unigram",
+      "scripts": [
+        "TELUGU"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "TAMIL",
+      "algorithm": "unigram",
+      "scripts": [
+        "TAMIL"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "BENGALI",
+      "algorithm": "unigram",
+      "scripts": [
+        "BENGALI"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "GUJARATI",
+      "algorithm": "unigram",
+      "scripts": [
+        "GUJARATI"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "ORIYA",
+      "algorithm": "unigram",
+      "scripts": [
+        "ORIYA"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "GURMUKHI",
+      "algorithm": "unigram",
+      "scripts": [
+        "GURMUKHI"
+      ],
+      "structural": false,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "CODE_MATH",
+      "algorithm": "bpe",
+      "scripts": [],
+      "structural": true,
+      "trained": true,
+      "exempt_from_budget": false,
+      "max_piece_length": 48
+    },
+    {
+      "name": "CATCHALL",
+      "algorithm": "bytes",
+      "scripts": [],
+      "structural": false,
+      "trained": false,
+      "exempt_from_budget": true,
+      "max_piece_length": 48
+    }
+  ]
+}

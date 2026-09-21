@@ -1,0 +1,398 @@
+[
+  {
+    "condition": "DEVANAGARI (shared: hi+mr+ne)",
+    "kind": "shared",
+    "script": "DEVANAGARI",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.6324,
+    "sec": 45.9
+  },
+  {
+    "condition": "DEVANAGARI (shared: hi+mr+ne)",
+    "kind": "shared",
+    "script": "DEVANAGARI",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.4748,
+    "sec": 37.6
+  },
+  {
+    "condition": "DEVANAGARI (shared: hi+mr+ne)",
+    "kind": "shared",
+    "script": "DEVANAGARI",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.3385,
+    "sec": 34.0
+  },
+  {
+    "condition": "DEVANAGARI (shared: hi+mr+ne)",
+    "kind": "shared",
+    "script": "DEVANAGARI",
+    "vocab": 64000,
+    "pieces": 63999,
+    "tokens_per_word": 1.2237,
+    "sec": 17.8
+  },
+  {
+    "condition": "LATIN (shared: en+hinglish+tanglish)",
+    "kind": "shared",
+    "script": "LATIN",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.7923,
+    "sec": 8.9
+  },
+  {
+    "condition": "LATIN (shared: en+hinglish+tanglish)",
+    "kind": "shared",
+    "script": "LATIN",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.6283,
+    "sec": 6.4
+  },
+  {
+    "condition": "LATIN (shared: en+hinglish+tanglish)",
+    "kind": "shared",
+    "script": "LATIN",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.4725,
+    "sec": 4.5
+  },
+  {
+    "condition": "LATIN (shared: en+hinglish+tanglish)",
+    "kind": "shared",
+    "script": "LATIN",
+    "vocab": 64000,
+    "pieces": 62026,
+    "tokens_per_word": 1.2875,
+    "sec": 2.2
+  },
+  {
+    "condition": "KANNADA (kn)",
+    "kind": "single",
+    "script": "KANNADA",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 2.1581,
+    "sec": 42.5
+  },
+  {
+    "condition": "KANNADA (kn)",
+    "kind": "single",
+    "script": "KANNADA",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.9451,
+    "sec": 42.4
+  },
+  {
+    "condition": "KANNADA (kn)",
+    "kind": "single",
+    "script": "KANNADA",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.7511,
+    "sec": 32.1
+  },
+  {
+    "condition": "KANNADA (kn)",
+    "kind": "single",
+    "script": "KANNADA",
+    "vocab": 64000,
+    "pieces": 61365,
+    "tokens_per_word": 1.6005,
+    "sec": 20.5
+  },
+  {
+    "condition": "BENGALI (bn)",
+    "kind": "single",
+    "script": "BENGALI",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 1.6817,
+    "sec": 46.1
+  },
+  {
+    "condition": "BENGALI (bn)",
+    "kind": "single",
+    "script": "BENGALI",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.4025,
+    "sec": 43.4
+  },
+  {
+    "condition": "BENGALI (bn)",
+    "kind": "single",
+    "script": "BENGALI",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.1813,
+    "sec": 39.0
+  },
+  {
+    "condition": "BENGALI (bn)",
+    "kind": "single",
+    "script": "BENGALI",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.0089,
+    "sec": 34.0
+  },
+  {
+    "condition": "TAMIL (ta)",
+    "kind": "single",
+    "script": "TAMIL",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 2.1742,
+    "sec": 52.5
+  },
+  {
+    "condition": "TAMIL (ta)",
+    "kind": "single",
+    "script": "TAMIL",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.8442,
+    "sec": 50.0
+  },
+  {
+    "condition": "TAMIL (ta)",
+    "kind": "single",
+    "script": "TAMIL",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.5743,
+    "sec": 44.6
+  },
+  {
+    "condition": "TAMIL (ta)",
+    "kind": "single",
+    "script": "TAMIL",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.3412,
+    "sec": 37.4
+  },
+  {
+    "condition": "TELUGU (te)",
+    "kind": "single",
+    "script": "TELUGU",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 2.5119,
+    "sec": 47.3
+  },
+  {
+    "condition": "TELUGU (te)",
+    "kind": "single",
+    "script": "TELUGU",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 2.1569,
+    "sec": 47.4
+  },
+  {
+    "condition": "TELUGU (te)",
+    "kind": "single",
+    "script": "TELUGU",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.8116,
+    "sec": 44.6
+  },
+  {
+    "condition": "TELUGU (te)",
+    "kind": "single",
+    "script": "TELUGU",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.5119,
+    "sec": 40.1
+  },
+  {
+    "condition": "MALAYALAM (ml)",
+    "kind": "single",
+    "script": "MALAYALAM",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 2.8508,
+    "sec": 58.8
+  },
+  {
+    "condition": "MALAYALAM (ml)",
+    "kind": "single",
+    "script": "MALAYALAM",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 2.3679,
+    "sec": 53.7
+  },
+  {
+    "condition": "MALAYALAM (ml)",
+    "kind": "single",
+    "script": "MALAYALAM",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.951,
+    "sec": 49.2
+  },
+  {
+    "condition": "MALAYALAM (ml)",
+    "kind": "single",
+    "script": "MALAYALAM",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.6348,
+    "sec": 36.6
+  },
+  {
+    "condition": "GUJARATI (gu)",
+    "kind": "single",
+    "script": "GUJARATI",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 1.6748,
+    "sec": 45.7
+  },
+  {
+    "condition": "GUJARATI (gu)",
+    "kind": "single",
+    "script": "GUJARATI",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.4258,
+    "sec": 43.1
+  },
+  {
+    "condition": "GUJARATI (gu)",
+    "kind": "single",
+    "script": "GUJARATI",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.2102,
+    "sec": 43.4
+  },
+  {
+    "condition": "GUJARATI (gu)",
+    "kind": "single",
+    "script": "GUJARATI",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 1.0273,
+    "sec": 39.1
+  },
+  {
+    "condition": "GURMUKHI (pa)",
+    "kind": "single",
+    "script": "GURMUKHI",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 1.3908,
+    "sec": 48.6
+  },
+  {
+    "condition": "GURMUKHI (pa)",
+    "kind": "single",
+    "script": "GURMUKHI",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.1912,
+    "sec": 45.4
+  },
+  {
+    "condition": "GURMUKHI (pa)",
+    "kind": "single",
+    "script": "GURMUKHI",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.0154,
+    "sec": 42.4
+  },
+  {
+    "condition": "GURMUKHI (pa)",
+    "kind": "single",
+    "script": "GURMUKHI",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 0.8572,
+    "sec": 38.1
+  },
+  {
+    "condition": "ORIYA (or)",
+    "kind": "single",
+    "script": "ORIYA",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 1.5261,
+    "sec": 43.6
+  },
+  {
+    "condition": "ORIYA (or)",
+    "kind": "single",
+    "script": "ORIYA",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.3185,
+    "sec": 42.1
+  },
+  {
+    "condition": "ORIYA (or)",
+    "kind": "single",
+    "script": "ORIYA",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 1.1438,
+    "sec": 37.3
+  },
+  {
+    "condition": "ORIYA (or)",
+    "kind": "single",
+    "script": "ORIYA",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 0.998,
+    "sec": 32.2
+  },
+  {
+    "condition": "ARABIC (ur)",
+    "kind": "single",
+    "script": "ARABIC",
+    "vocab": 4000,
+    "pieces": 3999,
+    "tokens_per_word": 1.2458,
+    "sec": 33.2
+  },
+  {
+    "condition": "ARABIC (ur)",
+    "kind": "single",
+    "script": "ARABIC",
+    "vocab": 8000,
+    "pieces": 7999,
+    "tokens_per_word": 1.0569,
+    "sec": 30.5
+  },
+  {
+    "condition": "ARABIC (ur)",
+    "kind": "single",
+    "script": "ARABIC",
+    "vocab": 16000,
+    "pieces": 15999,
+    "tokens_per_word": 0.8895,
+    "sec": 28.3
+  },
+  {
+    "condition": "ARABIC (ur)",
+    "kind": "single",
+    "script": "ARABIC",
+    "vocab": 32000,
+    "pieces": 31999,
+    "tokens_per_word": 0.7495,
+    "sec": 22.4
+  }
+]
